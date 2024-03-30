@@ -5,7 +5,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" />
+        <img src={logo} className="App-logo" alt="logo" />
+        <img src="https://placehold.co/6000x4000" alt="presentation" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
