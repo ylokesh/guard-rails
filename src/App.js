@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import {
   createColumnHelper,
@@ -68,8 +67,7 @@ const columns = [
 ];
 
 function App() {
-  const [data, _setData] = React.useState(() => [...defaultData]);
-  const rerender = React.useReducer(() => ({}), {})[1];
+  const [data] = React.useState(() => [...defaultData]);
 
   const table = useReactTable({
     data,
