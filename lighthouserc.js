@@ -1,7 +1,9 @@
 module.exports = {
   ci: {
     upload: {
-      target: "temporary-public-storage",
+      target: "lhci",
+      serverBaseUrl: "http://localhost:9001",
+      token: "75812b5e-126f-4fc5-ad3d-686163061de1", // build token from lhci wizard
     },
     assert: {
       assertions: {
