@@ -3,7 +3,7 @@ module.exports = {
     upload: {
       target: "lhci",
       serverBaseUrl: "http://localhost:9001",
-      token: "75812b5e-126f-4fc5-ad3d-686163061de1", // build token from lhci wizard
+      token: "a44bf53c-deab-4238-ba0e-203a74720c21", // build token from lhci wizard
     },
     assert: {
       assertions: {
